@@ -34,3 +34,7 @@ A `Makefile` is provided that allows you to build and test the module
 make build
 make test
 ```
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/30287348/233440343-79b581c8-66e3-48c5-b0f3-43ee49cfbda1.png" />
+</p>
