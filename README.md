@@ -1,5 +1,5 @@
-# go-assert-mes
-[![Go](https://github.com/kampanosg/go-assert-mes/actions/workflows/go.yml/badge.svg)](https://github.com/kampanosg/go-assert-mes/actions/workflows/go.yml)
+# go-assert-slices
+[![Go](https://github.com/kampanosg/go-assert-slices/actions/workflows/go.yml/badge.svg)](https://github.com/kampanosg/go-assert-slices/actions/workflows/go.yml)
 
 Handy and reusable functions that can I have been using when writing tests for Multi-Element Structures aka slices. All functions accept `*testing.T` and you can use them directly in your unit tests.
 
@@ -14,7 +14,7 @@ Import the package alongside `testing`
 ```golang
 import (
     "testing"
-    mes "github.com/kampanosg/go-assert-mes"
+    slices "github.com/kampanosg/go-assert-slices"
 )
 ```
 
@@ -23,7 +23,7 @@ You can then use it in your tests
 func TestExample(t *testing.T) {
 	slice1 := []int{1, 2, 3}
 	slice2 := []int{1, 2, 3}
-	mes.MatchExactly(t, slice1, slice2)
+	slices.MatchExactly(t, slice1, slice2)
 }
 ```
 
