@@ -27,9 +27,6 @@ func TestExample(t *testing.T) {
 }
 ```
 
-## Future work
-* Similar functions for `map`s.
-
 ## Building and Testing
 A `Makefile` is provided that allows you to build and test the module
 ```
