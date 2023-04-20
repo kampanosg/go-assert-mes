@@ -19,18 +19,18 @@ At the moment the following functions are available:
 Import the package alongside `testing`
 ```golang
 import (
-    "testing"
-    match "github.com/kampanosg/go-match-slices"
+  "testing"
+  match "github.com/kampanosg/go-match-slices"
 )
 ```
 
 You can then use it in your tests
 ```golang
 func TestExample(t *testing.T) {
-	slice1 := []int{1, 2, 3}
-	slice2 := []int{1, 2, 3}
-	match.MatchExactly(t, slice1, slice2)
-    match.MatchElements(t, slice1, slice2)
+  slice1 := []int{1, 2, 3}
+  slice2 := []int{1, 2, 3}
+  match.MatchExactly(t, slice1, slice2)
+  match.MatchElements(t, slice1, slice2)
 }
 ```
 
