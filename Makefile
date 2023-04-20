@@ -1,4 +1,9 @@
-all: test
+all: build test
+
+.PHONY: build
+build:
+	@echo "Building..."
+	@go build ./...
 
 .PHONY: test
 test:
