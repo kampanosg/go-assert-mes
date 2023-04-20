@@ -13,7 +13,7 @@ At the moment the following functions are available:
 * `MatchExactly`: The slices have to match _exactly_, including size and order of elements,
 * `MatchElements`: The slices have to match in size, but the order of the elements can be different.
 
-:warning: If you're already using https://github.com/stretchr/testify, they already provide an `ElementsMatch` function that does something very similar.
+:warning: If you're already using https://github.com/stretchr/testify, they provide `ElementsMatch`, that has the same functionality.
 
 ## Usage
 Import the package alongside `testing`
