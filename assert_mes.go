@@ -5,6 +5,7 @@ import (
 	"testing"
 )
 
+// MatchExactly compares two slices and returns true if they are the same.
 func MatchExactly(t *testing.T, expected, actual interface{}) {
 	if !exactMatch(expected, actual) {
 		t.Errorf("expected %v, got %v", expected, actual)

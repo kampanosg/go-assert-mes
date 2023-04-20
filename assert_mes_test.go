@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestExactMatch(t *testing.T) {
+func TestMatchExactly(t *testing.T) {
 	tests := []struct {
 		name     string
 		expected interface{}
