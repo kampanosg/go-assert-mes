@@ -1,4 +1,4 @@
-# go-match-slices
+# go-match-slices :pizza:
 [![Go](https://github.com/kampanosg/go-assert-slices/actions/workflows/go.yml/badge.svg)](https://github.com/kampanosg/go-assert-slices/actions/workflows/go.yml)
 
 
