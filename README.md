@@ -1,7 +1,7 @@
 # go-match-slices
 [![Go](https://github.com/kampanosg/go-assert-slices/actions/workflows/go.yml/badge.svg)](https://github.com/kampanosg/go-assert-slices/actions/workflows/go.yml)
 
-Handy and reusable functions that can I have been using when writing tests for Multi-Element Structures aka slices. All functions accept `*testing.T` and you can use them directly in your unit tests.
+Handy and reusable functions that I have been using when writing tests for slices. All functions accept `*testing.T` and you can use them directly in your unit tests.
 
 At the moment the following functions are available:
 * `MatchExactly`: The slices have to match _exactly_, including size and order of elements,
