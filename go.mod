@@ -1,3 +1,3 @@
-module github.com/kampanosg/go-match-slices
+module github.com/kampanosg/match
 
-go 1.20
+go 1.21
