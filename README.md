@@ -1,4 +1,4 @@
-# go-match-slices :pizza:
+# match :pizza:
 [![Go](https://github.com/kampanosg/go-assert-slices/actions/workflows/go.yml/badge.svg)](https://github.com/kampanosg/go-assert-slices/actions/workflows/go.yml)
 
 
@@ -10,8 +10,8 @@
 Handy and reusable functions that I have been using when writing tests for slices. All functions accept `*testing.T` and you can use them directly in your unit tests.
 
 At the moment the following functions are available:
-* `MatchExactly`: The slices have to match _exactly_, including size and order of elements,
-* `MatchElements`: The slices have to match in size, but the order of the elements can be different.
+* `Exactly`: The slices have to match _exactly_, including size and order of elements,
+* `Elements`: The slices have to match in size, but the order of the elements can be different.
 
 :warning: If you're already using https://github.com/stretchr/testify, they provide `ElementsMatch`, that has the same functionality.
 
@@ -20,7 +20,7 @@ Import the package alongside `testing`
 ```golang
 import (
   "testing"
-  match "github.com/kampanosg/go-match-slices"
+  "github.com/kampanosg/match"
 )
 ```
 

@@ -5,17 +5,17 @@ import (
 	"testing"
 )
 
-// MatchExactly compares two slices and returns true if they are _exactly_ the same.
+// Exactly compares two slices and returns true if they are _exactly_ the same.
 // This means that the slices must have the same length and the same elements in the same order.
-func MatchExactly(t *testing.T, expected, actual interface{}) {
+func Exactly(t *testing.T, expected, actual interface{}) {
 	if !matchExactly(expected, actual) {
 		t.Errorf("expected %v, got %v", expected, actual)
 	}
 }
 
-// MatchElements compares two slices and returns true if they contain the same elements.
+// Elements compares two slices and returns true if they contain the same elements.
 // This means that the slices must have the same length and the same elements, but not necessarily in the same order.
-func MatchElements(t *testing.T, expected, actual interface{}) {
+func Elements(t *testing.T, expected, actual interface{}) {
 	if !matchElements(expected, actual) {
 		t.Errorf("expected %v, got %v", expected, actual)
 	}
