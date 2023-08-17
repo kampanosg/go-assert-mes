@@ -29,8 +29,8 @@ You can then use it in your tests
 func TestExample(t *testing.T) {
   slice1 := []int{1, 2, 3}
   slice2 := []int{1, 2, 3}
-  match.MatchExactly(t, slice1, slice2)
-  match.MatchElements(t, slice1, slice2)
+  match.Exactly(t, slice1, slice2)
+  match.Elements(t, slice1, slice2)
 }
 ```
 
